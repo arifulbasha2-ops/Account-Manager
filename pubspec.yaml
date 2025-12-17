@@ -1,0 +1,61 @@
+name: account_manager
+description: Personal account management and expense tracking Flutter Android app.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.1.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.1.0
+
+  # Local Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # UI & Material
+  flutter_material_3: ^0.0.2
+  google_fonts: ^6.1.0
+
+  # Date & Time
+  intl: ^0.18.0
+  table_calendar: ^3.0.8
+
+  # Serialization
+  json_serializable: ^6.7.0
+  json_annotation: ^4.8.0
+
+  # Utilities
+  uuid: ^4.0.0
+  crypto: ^3.0.3
+
+  # Charts
+  fl_chart: ^0.65.0
+
+  # Navigation
+  go_router: ^12.0.0
+
+  # Other
+  dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  hive_generator: ^2.0.0
+  riverpod_generator: ^2.3.0
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animations/
